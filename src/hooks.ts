@@ -77,7 +77,7 @@ export const useStyle = (w : number, h : number, scale : number) : CSSStylePrope
             return {
                 position,
                 left: `${-size / 2}px`,
-                top: `${-h * 0.5 * (1 - sinify(scale))}px`,
+                top: `${-size -(h * 0.5) * (1 - sinify(scale))}px`,
                 width: `${size}px`,
                 height: `${size}px`,
                 background , 
